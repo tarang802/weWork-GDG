@@ -1,18 +1,32 @@
-# Full Stack Jira Clone with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, Shadcn UI Tutorial 🔥🔥
-## https://www.youtube.com/watch?v=R5dBYINNouY
+This is a Next.js project bootstrapped with create-next-app.
+Getting Started
 
-![image](https://github.com/user-attachments/assets/783d4f3b-925d-44cf-aaf8-4ee4035b2f6c)
+First, run the development server:
 
-### Make sure to create a `.env` file with following variables -
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 
-```
-DATABASE_URL=
+Open http://localhost:3000 with your browser to see the result.
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-```
+This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
+Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+    Next.js Documentation - learn about Next.js features and API.
+    Learn Next.js - an interactive Next.js tutorial.
+
+You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+
+Check out our Next.js deployment documentation for more details.
+weWork-gdg
