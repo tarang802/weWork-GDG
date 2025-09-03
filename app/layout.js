@@ -29,11 +29,11 @@ export default function RootLayout({ children }) {
           card: "bg-gray-800",
           headerTitle: "text-blue-400",
           headerSubtitle: "text-gray-400",
-        },
+        }, 
       }}
     >
       <html lang="en" suppressHydrationWarning>
-        <body className={inter.className}>
+        <body className={`${inter.className}} dotted-background`}>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
